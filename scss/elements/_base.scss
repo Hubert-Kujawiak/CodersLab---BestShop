@@ -1,0 +1,171 @@
+.base{
+  text-align: center;
+  h1{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2.5em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding-top: 2.2em;
+    padding-bottom: 0.7em;
+  }
+  p{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.8em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding-bottom: 2em;
+  }
+  .blueBtn{
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 2em;
+    opacity: 1;
+    width: 26em;
+    height: 4em;
+    color: white;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+
+// SECOND BASE !
+
+.secondBase{
+  margin-bottom: 2em;
+  h1{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1.8em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+  }
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  .oneIcons{
+    &::before{
+      content: '';
+      background-image: url('../../../../BestShop/3_Warsztaty/assets/Person.svg');
+      background-repeat: no-repeat;
+      width: 4rem;
+      height: 4rem;
+      position: absolute;
+    }
+    h2{
+      text-align: center;
+      font-family: Raleway;
+      font-weight: bolder;
+      letter-spacing: 5.96px;
+      color: #000000;
+      opacity: 1;
+    }
+    div{
+      height: 3em;
+      width: 3em;
+      margin: 0 auto;
+      background: #FB3B64 0% 0% no-repeat padding-box;
+      opacity: 1;
+      border-radius: 50%;
+      margin-bottom: 1em;
+    }
+    p{
+      text-align: center;
+      font: Regular 17px/20px Raleway;
+      letter-spacing: 0;
+      color: #A5A5A5;
+      opacity: 1;
+    }
+  }
+  .twoIcons{
+    &::before{
+      content: '';
+      background-image: url('../../../../BestShop/3_Warsztaty/assets/Eye.svg');
+      background-repeat: no-repeat;
+      width: 4rem;
+      height: 3rem;
+      position: absolute;
+      margin-top: 0.5rem;
+    }
+    h2{
+      text-align: center;
+      font-family: Raleway;
+      font-weight: bolder;
+      letter-spacing: 5.96px;
+      color: #000000;
+      opacity: 1;
+    }
+    div{
+      height: 3em;
+      width: 3em;
+      margin: 0 auto;
+      background: #08A6E4 0% 0% no-repeat padding-box;
+      opacity: 1;
+      border-radius: 50%;
+      margin-bottom: 1em;
+    }
+    p{
+      text-align: center;
+      font: Regular 17px/20px Raleway;
+      letter-spacing: 0;
+      color: #A5A5A5;
+      opacity: 1;
+    }
+  }
+  .threeIcons{
+    &::before{
+      content: '';
+      background-image: url('../../../../BestShop/3_Warsztaty/assets/Catalog.svg');
+      background-repeat: no-repeat;
+      width: 4rem;
+      height: 3rem;
+      position: absolute;
+    }
+    h2{
+      text-align: center;
+      font-family: Raleway;
+      font-weight: bolder;
+      letter-spacing: 5.96px;
+      color: #000000;
+      opacity: 1;
+    }
+    div{
+      height: 3em;
+      width: 3em;
+      margin: 0 auto;
+      background: #55DFB4 0% 0% no-repeat padding-box;
+      opacity: 1;
+      border-radius: 50%;
+      margin-bottom: 1em;
+    }
+    p{
+      text-align: center;
+      font: Regular 17px/20px Raleway;
+      letter-spacing: 0;
+      color: #A5A5A5;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .icons{
+    display: block;
+    .oneIcons,.twoIcons,.threeIcons{
+      margin-bottom: 2em;
+    }
+  }
+
+}

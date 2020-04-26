@@ -1,0 +1,297 @@
+.pricing{
+  margin: 0 auto;
+  max-width: 1050px;
+  >h1{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+}
+.optionsBuy{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10em;
+}
+.basic{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #FB3B64;
+  border-radius: 18px;
+  opacity: 1;
+  margin: 1em;
+  padding: 1em;
+  padding-bottom: 3em;
+  h1{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+    padding: 1em 4em 1.5em 4em;
+  }
+  h2{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 2em;
+    letter-spacing: 0;
+    color: #FB3B64;
+    opacity: 1;
+    padding-bottom: 1.5em;
+  }
+  .yesEl{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.7em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    line-height: 3em;
+    &::before{
+      content: url("../../../../BestShop/3_Warsztaty/assets/Checkmark.svg");
+      border: 1px solid #55DFB4;
+      border-radius: 2px;
+      opacity: 1;
+      position: relative;
+      margin-right: 1rem;
+    }
+  }
+  .noElem{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.7em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    line-height: 3em;
+    &::before{
+      content: url("../../../../BestShop/3_Warsztaty/assets/Close.svg");
+      border-radius: 2px;
+      opacity: 1;
+      position: relative;
+      margin-right: 1rem;
+    }
+  }
+  button{
+    background: #EB476E 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 0.7em;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 1em;
+    width: 11em;
+    position: absolute;
+    margin-top: 2.2em;
+    margin-left: 3.5em;
+  }
+}
+
+.professional {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 5px 10px 27px #07ACE629;
+  border: 1px solid #07ACE6;
+  border-radius: 18px;
+  opacity: 1;
+  box-sizing: border-box;
+  h1{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+    padding: 1em 4em 1.5em 4em;
+  }
+  h2{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 2em;
+    letter-spacing: 0;
+    color: #07ACE6;
+    opacity: 1;
+    padding-bottom: 0.5em;
+  }
+  h3{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 0.5em;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+    padding-bottom: 6em;
+  }
+  .yesEl{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.7em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    line-height: 3em;
+    &::before{
+      content: url("../../../../BestShop/3_Warsztaty/assets/Checkmark.svg");
+      border: 1px solid #55DFB4;
+      border-radius: 2px;
+      opacity: 1;
+      position: relative;
+      margin-right: 1rem;
+    }
+  }
+  .noElem{
+    text-align: center;
+    font-size: 0.7em;
+    font-family: "Open Sans";
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    line-height: 3em;
+    &::before{
+      content: url("../../../../BestShop/3_Warsztaty/assets/Close.svg");
+      border-radius: 2px;
+      opacity: 1;
+      position: relative;
+      margin-right: 1rem;
+    }
+  }
+  button{
+    background: #07ACE6 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 0.7em;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 1em;
+    width: 11em;
+    position: absolute;
+    margin-top: 4.5em;
+    margin-left: 6.5em;
+  }
+}
+
+.premium{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #55DFB4;
+  border-radius: 18px;
+  opacity: 1;
+  margin: 1em;
+  h1{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+    padding: 1em 4em 1.5em 4em;
+  }
+  h2{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 2em;
+    letter-spacing: 0;
+    color: #55DFB4;
+    opacity: 1;
+    padding-bottom: 0.5em;
+  }
+  h3{
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 0.5em;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+    padding-bottom: 6em;
+  }
+  .yesEl{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.7em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    line-height: 3em;
+    &::before{
+      content: url("../../../../BestShop/3_Warsztaty/assets/Checkmark.svg");
+      border: 1px solid #55DFB4;
+      border-radius: 2px;
+      opacity: 1;
+      position: relative;
+      margin-right: 1rem;
+    }
+  }
+  .noElem{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.7em;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    line-height: 3em;
+  }
+  button{
+    background: #55DFB4 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 0.7em;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 1em;
+    width: 11em;
+    position: absolute;
+    margin-top: 1.8em;
+    margin-left: 5.2em;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .optionsBuy{
+    display: block;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .basic{
+    width: 17em;
+    height: 23em;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    button{
+      margin-top: 1.5em;
+      margin-left: 5.5em;
+    }
+  }
+  .professional{
+    margin: 0 auto;
+    width: 21em;
+    height: 24em;
+    margin-bottom: 4em;
+    button{
+      margin-top: 2.3em;
+      margin-left: 9.5em;
+    }
+  }
+  .premium{
+    width: 17em;
+    height: 23em;
+    margin: 0 auto;
+    button{
+      margin-top: 0.8em;
+      margin-left: 6.2em;
+    }
+  }
+}

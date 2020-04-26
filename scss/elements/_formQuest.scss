@@ -1,0 +1,91 @@
+.formQuest{
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 3em;
+  .contact{
+    flex: 1;
+    h1{
+      text-align: left;
+      font-family: Raleway;
+      font-size: 2.5em;
+      letter-spacing: 0;
+      color: #000000;
+      opacity: 1;
+      margin-bottom: 0.8em;
+    }
+    >p{
+      text-align: left;
+      font-family: Open Sans;
+      font-size: 0.8em;
+      letter-spacing: 0;
+      color: #000000;
+      opacity: 1;
+      margin-bottom: 3em;
+    }
+    .emailAndphone{
+      display: flex;
+      .peCl{
+        text-align: left;
+        font-family: "Open Sans";
+        font-weight: bold;
+        font-size: 0.8em;
+        letter-spacing: 0;
+        color: #A5A5A5;
+        opacity: 1;
+        padding-right: 3em;
+        padding-left: 2em;
+      }
+    }
+  }
+  .form{
+    flex: 1;
+    text-align: right;
+    p{
+      text-align: left;
+      font-family: Open Sans;
+      font-weight: bold;
+      font-size: 0.6em;
+      letter-spacing: 3.28px;
+      color: #08A6E4;
+      opacity: 1;
+      padding-bottom: 6em;
+      padding-top: 4em;
+      border-bottom: 1px solid #95989A;
+      opacity: 1;
+    }
+    button{
+      width: 15em;
+      height: 3em;
+      margin-top: 2em;
+      color: white;
+      background: #08A6E4 0% 0% no-repeat padding-box;
+      box-shadow: 5px 10px 14px #07ACE629;
+      border-radius: 35px;
+      opacity: 1;
+    }
+    div.accept{
+      display: flex;
+      margin-top: 2em;
+      article{
+        text-align: left;
+        font-size: 0.7em;
+        font-family: Open Sans;
+        letter-spacing: 0;
+        color: #707070;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 550px) {
+  .formQuest{
+    display: block;
+    width: 80vw;
+    .emailAndphone{
+      display: block;
+    }
+  }
+}
